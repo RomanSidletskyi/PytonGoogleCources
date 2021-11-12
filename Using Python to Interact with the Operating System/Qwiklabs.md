@@ -78,20 +78,20 @@ You can download the private key file in PEM format from the Qwiklabs Start Lab 
 
 PEM
 
-Connect to the VM using the local Terminal application
+**:Connect to the VM using the local Terminal application:**
 
 A terminal is a program which provides a text-based interface for typing commands. Here you will use your terminal as an SSH client to connect with lab provided Linux VM.
 
-Open the Terminal application.
+1. Open the Terminal application.
 
-To open the terminal in Linux use the shortcut key Ctrl+Alt+t.
+- To open the terminal in Linux use the shortcut key Ctrl+Alt+t.
 
-To open terminal in Mac (OSX) enter cmd + space and search for terminal.
+- To open terminal in Mac (OSX) enter cmd + space and search for terminal.
 
-Enter the following commands.
+2. Enter the following commands.
 
-Note: Substitute the path/filename for the PEM file you downloaded, username and External IP Address.
-You will most likely find the PEM file in Downloads. If you have not changed the download settings of your system, then the path of the PEM key will be ~/Downloads/qwikLABS-XXXXX.pem
+``Note: Substitute the path/filename for the PEM file you downloaded, username and External IP Address.
+You will most likely find the PEM file in Downloads. If you have not changed the download settings of your system, then the path of the PEM key will be  ~/Downloads/qwikLABS-XXXXX.pem``
 
 ``chmod 600 ~/Downloads/qwikLABS-XXXXX.pem``
 
