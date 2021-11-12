@@ -31,54 +31,56 @@ Please find one of the three relevant options below based on your device's opera
 
 Note: Working with Qwiklabs may be similar to the work you'd perform as an IT Support Specialist; you'll be interfacing with a cutting-edge technology that requires multiple steps to access, and perhaps healthy doses of patience and persistence(!). You'll also be using SSH to enter the labs -- a critical skill in IT Support that you’ll be able to practice through the labs.
 
-## Option 1: Windows Users: Connecting to your VM
+### Option 1: Windows Users: Connecting to your VM
 In this section, you will use the PuTTY Secure Shell (SSH) client and your VM’s External IP address to connect.
 
-Download your PPK key file
+**Download your PPK key file**
 
-You can download the VM’s private key file in the PuTTY-compatible PPK format from the Qwiklabs Start Lab page. Click on Download PPK.
+You can download the VM’s private key file in the PuTTY-compatible PPK format from the Qwiklabs Start Lab page. Click on **Download PPK**.
 
-PPK
 
-Connect to your VM using SSH and PuTTY
+**Connect to your VM using SSH and PuTTY**
 
-You can download Putty from here
+1. You can download Putty from here
 
-In the Host Name (or IP address) box, enter username@external_ip_address.
+2. In the **Host Name (or IP address)** box, enter username@external_ip_address.
 
-Note: Replace username and external_ip_address with values provided in the lab.
-Putty_1
+``Note: Replace username and external_ip_address with values provided in the lab.``
+![image](https://user-images.githubusercontent.com/30626559/141488345-da6043d1-b796-466a-a2c1-5621338e9ba4.png)
 
-In the Category list, expand SSH.
+3. In the Category list, expand SSH.
 
-Click Auth (don’t expand it).
+4. Click Auth (don’t expand it).
 
-In the Private key file for authentication box, browse to the PPK file that you downloaded and double-click it.
+5. In the Private key file for authentication box, browse to the PPK file that you downloaded and double-click it.
 
-Click on the Open button.
+6. Click on the Open button.
 
-Note: PPK file is to be imported into PuTTY tool using the Browse option available in it. It should not be opened directly but only to be used in PuTTY.
+``Note: PPK file is to be imported into PuTTY tool using the Browse option available in it. It should not be opened directly but only to be used in PuTTY.``
 Putty_2
+![image](https://user-images.githubusercontent.com/30626559/141488367-86e28838-632f-44f5-ac47-abef3fc30818.png)
 
-Click Yes when prompted to allow a first connection to this remote SSH server. Because you are using a key pair for authentication, you will not be prompted for a password.
-Common issues
+7. Click Yes when prompted to allow a first connection to this remote SSH server. Because you are using a key pair for authentication, you will not be prompted for a password.
+![image](https://user-images.githubusercontent.com/30626559/141488412-6dcde53b-ef95-413b-a03a-12ac2df167ae.png
+
+**Common issues**
 
 If PuTTY fails to connect to your Linux VM, verify that:
 
-You entered <username>@<external ip address> in PuTTY.
+- You entered <username>@<external ip address> in PuTTY.
 
-You downloaded the fresh new PPK file for this lab from Qwiklabs.
+- You downloaded the fresh new PPK file for this lab from Qwiklabs.
 
-You are using the downloaded PPK file in PuTTY.
+- You are using the downloaded PPK file in PuTTY.
 
-Option 2: OSX and Linux users: Connecting to your VM via SSH
-Download your VM’s private key file.
+### Option 2: OSX and Linux users: Connecting to your VM via SSH
+
+ **Download your VM’s private key file.**
 
 You can download the private key file in PEM format from the Qwiklabs Start Lab page. Click on Download PEM.
 
-PEM
 
-**:Connect to the VM using the local Terminal application:**
+**Connect to the VM using the local Terminal application:**
 
 A terminal is a program which provides a text-based interface for typing commands. Here you will use your terminal as an SSH client to connect with lab provided Linux VM.
 
@@ -97,4 +99,5 @@ You will most likely find the PEM file in Downloads. If you have not changed the
 
 ``ssh -i ~/Downloads/qwikLABS-XXXXX.pem username@External Ip Address``
 
+![image](https://user-images.githubusercontent.com/30626559/141488488-cdbe7fd2-9b1c-4247-bd80-47323a3a49d6.png)
 
