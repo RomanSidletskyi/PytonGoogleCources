@@ -4,7 +4,7 @@ This script begins with a line containing the #! character combination, which is
 #### Fix permission denied error. ``sudo chmod +x health_checks.py``
 This is because the above command tries to run your script directly as a program. The program is parsed by the interpreter specified in the first line of the script, i.e. shebang. If the kernel finds that the first two bytes are #! it uses the rest of the line as an interpreter and passes the file as an argument. So, to do this, the file needs to have execute permission
 
-- **access to VM** ``ssh -i ~/Downloads/qwiklabs-L5997008.pem student-01-6bba6a24b212 35.239.139.229``
+- **access to VM** ssh -i ~/Downloads/qwikLABS-XXXXX.pem username@External Ip Address : ``ssh -i ~/Downloads/qwiklabs-L6590716.pem student-01-6bba6a24b212@34.123.203.47``
 - **execute** : ``./health_checks.py``
 - **nano editor to open the file : ** ``./health_checks.py``
 - **import module :** ``sudo apt install python3-requests``
