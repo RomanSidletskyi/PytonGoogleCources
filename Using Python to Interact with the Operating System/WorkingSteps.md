@@ -10,3 +10,10 @@ This is because the above command tries to run your script directly as a program
 - **import module :** ``sudo apt install python3-requests``
 - **Import the request module into the file using the import statements. :** ``import requests``
 - **import network module (python file created ) : ** ``from network import *``
+
+
+
+chmod 600 ~/Downloads/qwiklabs-L6868193.pem
+ssh -i ~/Downloads/qwiklabs-L6868193.pem student-01-6bba6a24b212@34.136.65.74
+
+sudo chmod 777 script.py
