@@ -1,0 +1,26 @@
+## Unit Test Cheat-Sheet
+Frankly, the unit testing library for Python is fairly well documented, but it can be a bit of a dry read. Instead, we suggest covering the core module concepts, and then reading in more detail later.
+
+Best of Unit Testing Standard Library Module
+Understand a Basic Example:
+
+https://docs.python.org/3/library/unittest.html#basic-example
+
+Understand how to run the tests using the Command Line:
+
+https://docs.python.org/3/library/unittest.html#command-line-interface
+
+Understand various Unit Test Design Patterns:
+
+https://docs.python.org/3/library/unittest.html#organizing-test-code
+
+Understand the uses of setUp, tearDown; setUpModule and tearDownModule
+
+Understand basic assertions:
+![image](https://user-images.githubusercontent.com/30626559/144759523-5c4308c9-a154-4426-bc32-9b9246574e16.png)
+
+
+
+Understand more specific assertions such as assertRaises
+
+- https://docs.python.org/3/library/unittest.html#unittest.TestCase.assertRaises
