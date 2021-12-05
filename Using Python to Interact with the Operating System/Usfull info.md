@@ -56,3 +56,23 @@ Standard Library Docs:
 Check out the following link for more information:
 
 https://docs.python.org/3/library/subprocess.html
+
+
+import unittest
+
+class TestCompiler(unittest.TestCase):
+
+    def test_basic(self):
+        testcase = "The best preparation for tomorrow is doing your best today."
+        expected = ['b', 'a', 'a', 'b', 'a']
+        self.assertEqual(LetterCompiler(testcase), expected)
+unittest.main()
+
+Yikes! SystemExit: True means an error occurred, as expected. The reason is that unittest.main( ) looks at sys.argv. In Jupyter, by default, the first parameter of sys.argv is what started the Jupyter kernel which is not the case when executing it from the command line. This default parameter is passed into unittest.main( ) as an attribute when you don't explicitly pass it attributes and is therefore what causes the error about the kernel connection file not being a valid attribute. Passing an explicit list to unittest.main( ) prevents it from looking at sys.argv.
+
+Let's pass it the list ['first-arg-is-ignored'] for example. In addition, we will pass it the parameter exit = False to prevent unittest.main( ) from shutting down the kernel process. Run the following cell with the argv and exit parameters passed into unittest.main( ) to rerun your automatic test.
+
+``unittest.main(argv = ['first-arg-is-ignored'], exit = False)``
+
+
+
