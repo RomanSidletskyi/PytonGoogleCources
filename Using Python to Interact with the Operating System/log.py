@@ -61,6 +61,15 @@ if __name__ == "__main__":
   
   
   #Save the file by clicking Ctrl-o, followed by the Enter key and Ctrl-x.
-  chmod 600 ~/Downloads/qwiklabs-L6884338.pem
-  ssh -i ~/Downloads/qwiklabs-L6884338.pem student-01-6bba6a24b212@34.70.54.205
- 
+  chmod 600 ~/Documents/downloads/qwiklabs-L6884454.pem
+  ssh -i ~/Documents/downloads/qwiklabs-L6884454.pem student-01-6bba6a24b212@34.70.54.205
+
+#Make the file executable before running it.
+
+``sudo chmod +x find_error.py``
+#Now, run the file by passing the path to fishy.log as a parameter to the script.
+
+``./find_error.py ~/data/fishy.log``
+#This script will now prompt for the type of error to be searched. Continue by entering the following type of error:
+
+#CRON ERROR Failed to start
