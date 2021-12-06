@@ -1,19 +1,22 @@
 1. pip   is the name of the command line tool commonly used to install, update, and remove external Python modules
 2. info about function :https://docs.python.org/3/library/functions.html#open 
-## Files and Directories Cheat-Sheet
-- https://docs.python.org/3/library/os.html
-- https://docs.python.org/3/library/os.path.html
-- https://en.wikipedia.org/wiki/Unix_time
-## CSV Files Cheat Sheet
-- https://docs.python.org/3/library/csv.html
-- https://realpython.com/python-csv/
 
-## Regular Expressions Cheat-Sheet
-Check out the following links for more information:
+3. ``#!/usr/bin/env`` python3 uses the operating system env command, which locates and executes Python by searching the PATH environment variable. Unlike Windows, the Python interpreter is usually already in the $PATH variable on linux, so you don't have to add it.
+4. ``sudo chmod +x health_checks.py`` Fix permission denied error. 
+    This is because the above command tries to run your script directly as a program. The program is parsed by the interpreter specified in the first line of the script, i.e. shebang. If the kernel finds that the first two bytes are #! it uses the rest of the line as an interpreter and passes the file as an           argument. So, to do this, the file needs to have execute permission
+5. **Access to VM**
+- chmod 600 ~/Downloads/qwiklabs-L6868193.pem
+-  ssh -i ~/Downloads/qwikLABS-XXXXX.pem username@External Ip Address : ``ssh -i ~/Downloads/qwiklabs-L6590716.pem student-01-6bba6a24b212@34.123.203.47``
+- **execute** : ``./health_checks.py``
+- **nano editor to open the file : ** ``./health_checks.py``
+- **import module :** ``sudo apt install python3-requests``
+- **Import the request module into the file using the import statements. :** ``import requests``
+- **import network module (python file created ) : ** ``from network import *``
 
-- https://docs.python.org/3/howto/regex.html
-- https://docs.python.org/3/library/re.html
-- https://docs.python.org/3/howto/regex.html#greedy-versus-non-greedy
+sudo chmod 777 script.py
+
+
+
 
 Shout out to [regex101.com](https://www.coursera.org/learn/python-operating-system/supplement/NVXqf/regular-expressions-cheat-sheet#:~:text=Module%20Review-,Regular%20Expressions%20Cheat%2DSheet,regex101.com%2C%20which%20will%20explain%20each%20stage%20of%20a%20regex.,-Mark%20as%20completed), which will explain each stage of a regex. 
 ### Advanced Regular Expressions Cheat-Sheet
