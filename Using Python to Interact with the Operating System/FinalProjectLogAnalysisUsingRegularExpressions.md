@@ -9,8 +9,8 @@ The service's developers need your help getting some information from those logs
 - Write to a file in CSV format
 - Move files to the appropriate directory for use with the CSV->HTML converter
 
-``chmod 600 ~/Documents/downloads/qwikLABS-XXXXX.pem``
-``ssh -i ~/Documents/downloads/qwikLABS-XXXXX.pem username@External Ip Address``
+``chmod 600 ~/Documents/downloads/qwiklabs-L6970213.pem``
+``ssh -i ~/Documents/downloads/qwiklabs-L6970213.pem student-01-3b2f35b83401@34.123.26.74``
 
 1. We'll be working with a log file named syslog.log, which contains logs related to ticky.
  The log lines follow a pattern similar to the ones we've seen before. Something like this:
