@@ -26,6 +26,30 @@ There are many useful git cheatsheets online as well. Please take some time to r
 **.gitignore files**
 .gitignore files are used to tell the git tool to intentionally ignore some files in a given Git repository. For example, this can be useful for configuration files or metadata files that a user may not want to check into the master branch. Check out more at: https://git-scm.com/docs/gitignore.
 
+### Git Revert Cheat Sheet
+[git checkout](https://git-scm.com/docs/git-checkout) is effectively used to switch branches.
+[git reset](https://git-scm.com/docs/git-reset#_examples) basically resets the repo, throwing away some changes. It’s somewhat difficult to understand, so reading the examples in the documentation may be a bit more useful.
+There are some other useful articles online, which discuss more aggressive approaches to [resetting the repo](https://jwiegley.github.io/git-from-the-bottom-up/3-Reset/4-doing-a-hard-reset.html).
+
+[git commit --amend](https://git-scm.com/docs/git-commit#Documentation/git-commit.txt---amend) is used to make changes to commits after-the-fact, which can be useful for making notes about a given commit.
+
+[git revert](https://git-scm.com/docs/git-revert) makes a new commit which effectively rolls back a previous commit. It’s a bit like an undo command.
+
+There are a [few ways](https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things) you can rollback commits in Git.
+
+There are some interesting considerations about how git object data is stored, such as the usage of sha-1. 
+### Git Branches and Merging Cheat Sheet
+
+- git branch : [Used to manage branches
+- git branch <name>  : [Creates the branch](https://git-scm.com/docs/git-branch) 
+- git branch -d <name> : [Deletes the branch](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
+- git branch -D <name> : [Forcibly deletes the branch](https://git-scm.com/docs/git-branch#Documentation/git-branch.txt--D) 
+- git checkout <branch>  : [Switches to a branch](https://git-scm.com/docs/git-checkout). 
+- git checkout -b <branch> : Creates a new branch and [switches to it](https://git-scm.com/docs/git-checkout#Documentation/git-checkout.txt--bltnewbranchgt).
+- git merge <branch>  : [Merge joins branches together](https://git-scm.com/docs/git-merge). 
+- git merge --abort : If there are merge conflicts (meaning files are incompatible), --abort can be used to abort the merge action.
+- git log --graph --oneline : [This shows a summarized view of the commit history for a repo](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History).
+
 
 
 
