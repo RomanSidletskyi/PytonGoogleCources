@@ -50,10 +50,25 @@ There are some interesting considerations about how git object data is stored, s
 - git merge --abort : If there are merge conflicts (meaning files are incompatible), --abort can be used to abort the merge action.
 - git log --graph --oneline : [This shows a summarized view of the commit history for a repo](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History).
 
+## GitHub
 
+### Some useful commands for getting started:
 
+- git clone URL : [Git clone is used to clone a remote repository into a local workspace](https://git-scm.com/docs/git-clone)
+- git push : [Git push is used to push commits from your local repo to a remote repo](https://git-scm.com/docs/git-push)
+- git pull : [Git pull is used to fetch the newest updates from a remote repository](https://git-scm.com/docs/git-pull)
 
-- chmod 600 ~/Documents/downloads/qwiklabs-L7012405.pem
--  ssh -i ~/Documents/downloads/qwiklabs-L7012405.pem student-01-3b2f35b83401@34.132.76.146
+ ### Git Remotes Cheat-Sheet
+- git remote : [Lists remote repos](https://git-scm.com/docs/git-remote)
+- git remote -v : [List remote repos verbosely](https://git-scm.com/docs/git-remote#Documentation/git-remote.txt--v)
+- git remote show <name> : [Describes a single remote repo](https://git-scm.com/docs/git-remote#Documentation/git-remote.txt-emshowem)
+- git remote update : [Fetches the most up-to-date objects](https://git-scm.com/docs/git-remote#Documentation/git-remote.txt-emupdateem)
+- git fetch : [Downloads specific objects](https://git-scm.com/docs/git-fetch)
+- git branch -r : [Lists remote branches](https://git-scm.com/docs/git-branch#Documentation/git-branch.txt--r); can be combined with other branch arguments to manage remote branches
+
+You can also see more in the video [Cryptography in Action](https://www.coursera.org/learn/it-security/item/P1I8z) from the course [IT Security: Defense against the digital dark arts](https://www.coursera.org/learn/it-security/home/welcome).
+ 
+- chmod 600 ~/Documents/downloads/qwiklabs-L7072132.pem
+-  ssh -i ~/Documents/downloads/qqwiklabs-L7072132.pem student-01-3b2f35b83401@35.202.64.242
 
  
