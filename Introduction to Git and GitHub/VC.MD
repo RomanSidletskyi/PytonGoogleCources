@@ -21,6 +21,15 @@ Check out the following links for more information:
 
 The [Linux kernel documentation](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/process/submitting-patches.rst?id=HEAD) itself, as well as [impassioned](http://stopwritingramblingcommitmessages.com/) opinions from other [developers](https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message). 
 
+There are many useful git cheatsheets online as well. Please take some time to research and study a few, such as this one.
 
+**.gitignore files**
+.gitignore files are used to tell the git tool to intentionally ignore some files in a given Git repository. For example, this can be useful for configuration files or metadata files that a user may not want to check into the master branch. Check out more at: https://git-scm.com/docs/gitignore.
+
+
+
+
+- chmod 600 ~/Documents/downloads/qwiklabs-L7012405.pem
+-  ssh -i ~/Documents/downloads/qwiklabs-L7012405.pem student-01-3b2f35b83401@34.132.76.146
 
  
