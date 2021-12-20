@@ -10,3 +10,10 @@ Check out the following links for more information:
 - https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer
 - https://en.wikipedia.org/wiki/Cache_(computing)
 - https://www.reddit.com/r/linux/comments/d7hx2c/why_nice_levels_are_a_placebo_and_have_been_for_a/
+### More About Managing Resources
+Check out the following links for more information:
+
+- https://realpython.com/python-concurrency/
+- https://hackernoon.com/threaded-asynchronous-magic-and-how-to-wield-it-bba9ed602c32
+- https://www.pluralsight.com/blog/tutorials/how-to-profile-memory-usage-in-python
+- https://www.linuxjournal.com/content/troubleshooting-network-problems
