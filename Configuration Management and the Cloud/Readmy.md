@@ -44,6 +44,62 @@ Check out the following links for more information:
 - https://en.wikipedia.org/wiki/Domain-specific_language
 - http://radar.oreilly.com/2015/04/the-puppet-design-philosophy.html
 
+### More Information About Deploying Puppet Locally
+Check out the following links for more information:
 
+- https://puppet.com/docs/puppet/latest/style_guide.html
+- https://puppet.com/docs/puppetserver/latest/install_from_packages.html
+### More Information about Deploying Puppet to Clients
+Check out the following link for more information:
 
-qwiklabs-L7496558.pem
+- http://www.masterzen.fr/2010/11/14/puppet-ssl-explained/
+
+### More Information About Updating Deployments
+Check out the following links for more information:
+
+- https://rspec-puppet.com/tutorial/
+- http://puppet-lint.com/
+
+### Managing VMs in GCP
+Over the last few videos we learned how to create and use virtual machines running on GCP. We then explored how we can use one VM as a template for creating many more VMs with the same setup. You can find a lot more information about this in the following tutorials:
+
+- https://cloud.google.com/compute/docs/quickstart-linux
+- https://cloud.google.com/compute/docs/instances/create-vm-from-instance-template
+- https://cloud.google.com/sdk/docs
+### More About Cloud & GCP
+Check out the following links for more information:
+
+- [Getting started on GCP with Terraform](https://cloud.google.com/community/tutorials/getting-started-on-gcp-with-terraform)
+- [Creating groups of unmanaged instances](https://cloud.google.com/compute/docs/instance-groups/creating-groups-of-unmanaged-instances)
+- Official documentation is here: https://cloud.google.com/load-balancing/docs/https/
+- https://geekflare.com/gcp-load-balancer/
+
+Interesting articles about hybrid setups:
+
+- https://blog.inkubate.io/create-a-centos-7-terraform-template-for-vmware-vsphere/
+- https://www.terraform.io/docs/enterprise/before-installing/reference-architecture/gcp.html
+- https://www.hashicorp.com/resources/terraform-on-premises-hybrid-cloud-wayfair
+
+### More About Cloud Providers
+Here are some links to some common Quotas you’ll find in various cloud providers
+
+- https://cloud.google.com/compute/quotas#understanding_vm_cpu_and_ip_address_quotas
+- https://docs.aws.amazon.com/general/latest/gr/aws_service_limits.html
+- https://docs.microsoft.com/en-us/azure/azure-subscription-service-limits#service-specific-limits
+
+#### More Information on Monitoring and Alerting
+Check out the following links for more information:
+
+- https://www.datadoghq.com/blog/monitoring-101-collecting-data/
+- https://www.digitalocean.com/community/tutorials/an-introduction-to-metrics-monitoring-and-alerting
+- https://en.wikipedia.org/wiki/High_availability
+- https://landing.google.com/sre/books/
+### Reading: Debugging Problems on the Cloud
+Check out the following links for more information:
+
+- https://cloud.google.com/compute/docs/troubleshooting/troubleshooting-instances
+- https://docs.microsoft.com/en-us/azure/virtual-machines/troubleshooting/
+- https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-troubleshoot.htm
+
+chmod 600 ~/Documents/downloads/qwiklabs-L7541891.pem
+ssh -i ~/Documents/downloads/qwiklabs-L7541891.pem student-01-6a0a59adcc53@35.188.123.192
