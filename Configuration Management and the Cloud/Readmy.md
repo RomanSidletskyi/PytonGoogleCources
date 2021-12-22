@@ -101,5 +101,5 @@ Check out the following links for more information:
 - https://docs.microsoft.com/en-us/azure/virtual-machines/troubleshooting/
 - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-troubleshoot.htm
 
-chmod 600 ~/Documents/downloads/qwiklabs-L7541891.pem
-ssh -i ~/Documents/downloads/qwiklabs-L7541891.pem student-01-6a0a59adcc53@35.188.123.192
+chmod 600 ~/Documents/downloads/qwiklabs-L7554550.pem
+ssh -i ~/Documents/downloads/qwiklabs-L7554550.pem student-01-6a0a59adcc53@130.211.220.68
