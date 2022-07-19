@@ -34,3 +34,5 @@ def is_prime(x)
 ```
 
 ##Generator Expressions : `(expr(item) for item in iterable)`
+
+dander meens __<method name>__
